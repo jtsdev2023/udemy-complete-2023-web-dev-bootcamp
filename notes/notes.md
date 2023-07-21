@@ -77,6 +77,7 @@ NOTE: Mozilla Developer Network ([MDN](https://developer.mozilla.org/en-US/docs/
 - `draggable="true"` ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable))
 - `<ol>` ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol))
 - `<img>`([MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img))
+    - Can load GIFs using `<img>` element
 - `<hr>` ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr))
 - [Lorem Ipsum](https://www.lipsum.com/)
 - [Picsum](https://picsum.photos/)

@@ -1,3 +1,5 @@
 *.pdf
 *.zip
+*.html
+*.tar.gz
 */*
