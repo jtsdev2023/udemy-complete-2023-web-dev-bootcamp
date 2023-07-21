@@ -59,7 +59,7 @@ NOTE: Mozilla Developer Network ([MDN](https://developer.mozilla.org/en-US/docs/
     - Inner display type
         - Boxes also have an *inner* display type, which dictates how elements insid that box are laid out.
         - Block and inline layout is the default way things behave on the web. By default and without any other instruction, the elements inside a box are laid out in [normal flow](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) and behave as block or inline boxes.
-        - You can change the inner display type for example by setting `display: flex;`. The element will stull use the outer display type `block` but this changes the inner display type to `flex`. Any direct children of this box will become flex items and behave according to the [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) specification.
+        - You can change the inner display type for example by setting `display: flex;`. The element will still use the outer display type `block` but this changes the inner display type to `flex`. Any direct children of this box will become flex items and behave according to the [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) specification.
         - Other inner values that boxes can have - [flex](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) and [grid](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids) etc.
         - [Block and Inline Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flow_layout/Block_and_inline_layout_in_normal_flow)
 - More CSS Box Model (Source: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model))
@@ -83,4 +83,19 @@ NOTE: Mozilla Developer Network ([MDN](https://developer.mozilla.org/en-US/docs/
 - [Picsum](https://picsum.photos/)
 - `alt` HTML image element attribute ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-alt))
     - The `alt` attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the `src` attribute, or if the user uses a screen reader). (Source: GitHub Copilot 21072023)
+- HTML image that is a link
+    - `<a href=""><img src="" alt=""></a>`
+- HTML boilerplate
+```html
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            
+        </body>
+```
 - 
