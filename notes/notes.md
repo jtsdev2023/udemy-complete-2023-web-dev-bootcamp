@@ -1,4 +1,4 @@
-# UNC Code Bootcamp Notes
+# Web Development Notes
 
 ## HTML
 NOTE: Mozilla Developer Network ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)) is referenced a lot in this section. It is a great resource for HTML, CSS, and JavaScript.
@@ -27,6 +27,26 @@ NOTE: Mozilla Developer Network ([MDN](https://developer.mozilla.org/en-US/docs/
     - `<section>` is a section of content
         - Represents a generic standalone section of content, which doesn't have a more specific semantic element to represent it.
         - With very few exceptions, `<section>` should always have a heading.
+- HTML boilerplate
+    - `<!DOCTYPE html>` tells the browser that this is an HTML document.
+    - `<html lang="en">`
+        - The `<html></html>` element is the root of the document.
+        - The `lang="en"` attribute tells the browser that this is an HTML document written in English.
+    - `<head>` contains meta information about the document (i.e., meta data).
+        - `<meta charset="UTF-8">` tells the browser that the document is using the UTF-8 character encoding.
+        - `<meta name="viewport" content="width=device-width, initial-scale=1.0">` tells the browser how to display the content on different devices.
+```html
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            
+        </body>
+```
 
 ## CSS
 - Inroduction to the CSS basic box model (Source: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model))
@@ -65,7 +85,8 @@ NOTE: Mozilla Developer Network ([MDN](https://developer.mozilla.org/en-US/docs/
 - More CSS Box Model (Source: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model))
     - The CSS box model defines the rectangular boxes, including their padding and margin, that are generated for elements and laid out according to the [visual formatting model](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model).
     - Box model overview
-        - A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box and displayed by CSS. `<continue>`...
+        - A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box and displayed by CSS.
+
 
 <hr/>
 
@@ -85,17 +106,19 @@ NOTE: Mozilla Developer Network ([MDN](https://developer.mozilla.org/en-US/docs/
     - The `alt` attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the `src` attribute, or if the user uses a screen reader). (Source: GitHub Copilot 21072023)
 - HTML image that is a link
     - `<a href=""><img src="" alt=""></a>`
-- HTML boilerplate
-```html
-    <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-        </head>
-        <body>
-            
-        </body>
-```
-- 
+- HTML is a markup language
+    - HTML is a markup language that uses a special syntax or notation to describe the structure of a webpage to the browser. HTML elements are the building blocks of HTML pages. (Source: GitHub Copilot 27072023)
+- CSS is a style sheet language
+    - CSS is a style sheet language that allows you to define the presentation of elements on a webpage. (Source: GitHub Copilot 27072023)
+- `rel` HTML link element attribute ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#attr-rel))
+    - The `rel` attribute defines the relationship between a linked resource and the current document.
+- CSS Attribute Selector: `[attr=value]` ([MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors))
+    - The `[attr=value]` selector is used to select elements with a specified attribute and value.
+    - Example: `p[draggable] { color: red; }`
+        - Selects all `<p>` elements with a `draggable` attribute
+    - Example: `p[draggable="true"] { color: red; }`
+        - Selects all `<p>` elements with a `draggable` attribute value equal to `true`
+- Universal Selector: `*` ([MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors))
+    - The universal selector, written as a CSS qualified name `*`, matches the name of any element type.
+    - Example: `* { color: red; }`
+        - Selects all elements
