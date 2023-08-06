@@ -1,3 +1,6 @@
 *.pdf
 *.zip
+*.html
+*.tar.gz
 */*
+.trash/
