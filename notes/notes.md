@@ -82,11 +82,20 @@ NOTE: Mozilla Developer Network ([MDN](https://developer.mozilla.org/en-US/docs/
         - You can change the inner display type for example by setting `display: flex;`. The element will still use the outer display type `block` but this changes the inner display type to `flex`. Any direct children of this box will become flex items and behave according to the [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) specification.
         - Other inner values that boxes can have - [flex](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) and [grid](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids) etc.
         - [Block and Inline Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flow_layout/Block_and_inline_layout_in_normal_flow)
+<br>
+<br>
 - More CSS Box Model (Source: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model))
     - The CSS box model defines the rectangular boxes, including their padding and margin, that are generated for elements and laid out according to the [visual formatting model](https://developer.mozilla.org/en-US/docs/Web/CSS/Visual_formatting_model).
     - Box model overview
         - A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box and displayed by CSS.
-
+    - Center text in container box
+    ```css
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ```
 
 <hr/>
 
