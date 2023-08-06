@@ -52,17 +52,12 @@ NOTE: Mozilla Developer Network ([MDN](https://developer.mozilla.org/en-US/docs/
 - Inroduction to the CSS basic box model (Source: [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model))
     - When laying out a document, the browser's rendering engine represents each element as a rectangular box according to the standard **CSS** basic box model. CSS determines the size, position, and the proerties (color, background, border size, etc.) of these boxes.
     - Every box is composed of four parts (or areas), defined by their respective edges: the content edge, padding edge, border edge, and margin edge.
-
-    <br>
-    <br>
-    
-    ![CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model/boxmodel.png)
-
-    <br>
-    <br>
-
     - Content area
         - The content area, bounded by the content edge, contains the "real" content of the element, such as text, and image, or a video player. Its dimensions are the content *width* (or *content-box width*) and the *content height* (or *content-box height*). It often has a background color or background image.
+
+    <br>
+
+    ![CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model/boxmodel.png)
 
 <br>
 <br>
