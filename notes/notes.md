@@ -59,8 +59,10 @@ NOTE: Mozilla Developer Network ([MDN](https://developer.mozilla.org/en-US/docs/
     <br>
     - Content area
         - The content area, bounded by the content edge, contains the "real" content of the element, such as text, and image, or a video player. Its dimensions are the content *width* (or *content-box width*) and the *content height* (or *content-box height*). It often has a background color or background image.
+
 <br>
 <br>
+
 - CSS Box Model (Source: [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model))
     - Everything in CSS has a box around it, and understanding these boxes is key to being able to create more complex layouts with CSS, or to align items with other items.
     - Outer display type
@@ -69,7 +71,7 @@ NOTE: Mozilla Developer Network ([MDN](https://developer.mozilla.org/en-US/docs/
             - The `width` and `height` properties are respected.
             - Padding, margin, and border will cause other elements to be pushed away from the box.
             - If `width` is not specified, the box will extend in the inline direction to fill the space available in its container. In most cases, the box will become as wide as its container, filling up 100% of the space available.
-            - Some HTML elements, such as `<h1>` and `<p>`, use `block` as their outer display type by default.
+            - Some HTML elements, such as `<h1>` and `<p>`, use  as their outer display type by default.
         - If a box has an outer display type of `inline`, then:
             - The box will not break onto a new line.
             - The `width` and `height` properties will not apply.
